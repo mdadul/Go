@@ -2,7 +2,7 @@
 2. [Hello world](#hello-world)
 3. [Package](#package)
 4. [Import](#import)
-5. [Variable](#variable)
+5. [Variable](#variables)
 
 # Go
 Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
