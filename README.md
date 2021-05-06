@@ -27,3 +27,39 @@ Apart from main, Go has many packages that can be imported and used in the code 
 One of the most popular packages is "fmt", which stands for format, and provides input and output functionality.
 
 To import a package, we use the import statement:
+
+
+# Variables
+
+Variables are used to store values.
+
+In Go, the var keyword is used to declare variables.
+
+```Go
+	var x int
+```
+The code above declares a variable named i of type int.
+int stands for integer and represents whole numbers.
+
+We can assign the variable a value and output it:
+
+```Go
+	var x int = 8
+```
+You can also declare multiple variables on one line and assign values to them:
+
+```Go
+	var i,j int = 87,89
+```
+If you assign a value to the variable, you can omit the type declaration, as Go will automatically take the type of the value assigned:
+
+```Go
+	var i,name = 89,"Go"
+```
+Go supports short variable declaration using :=.
+
+```Go
+	x := 89
+	name := "Emdadul"
+```
+
