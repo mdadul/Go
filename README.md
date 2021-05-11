@@ -71,3 +71,30 @@ Go supports short variable declaration using :=.
 	name := "Emdadul"
 ```
 
+
+## Data Type ##
+
+Let's see what other common types Go supports.
+- float32 - a single-precision floating point value.
+- float64 - a double-precision floating point value.
+- string - a text value.
+- bool - Boolean true or false.
+
+```Go
+package main
+
+import "fmt"
+
+func main() {
+  var x int = 76742
+  var y float32 = 1.3877
+  var name string = "Emdadul"
+  var flag bool = true
+
+  fmt.Println(name)
+  fmt.Println(x)
+  fmt.Println(y)
+  fmt.Println(flag)
+}
+```
+
